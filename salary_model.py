@@ -14,7 +14,7 @@ else:
     Gender=0
 
 
-Years_of_Experience =st.slider('Enter ypur Experience. (in years)',min_value=0, max_value= Age-20)
+Years_of_Experience =st.slider('Enter your Experience. (in years)',min_value=0, max_value= Age-10)
 
 if st.button('Predict!'):
     model=joblib.load('Salary_model.h5')
